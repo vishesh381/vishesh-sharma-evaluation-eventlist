@@ -28,5 +28,4 @@ js/
 ├── controller.js - Application entry point and controller logic  
 ├── model.js - Handles communication with the backend (JSON server)  
 └── view.js - DOM manipulation and event binding  
-db.json - JSON server file for persistent event storage  
 README.md - Project documentation  
