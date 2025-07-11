@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Final Evaluation: Event List</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <button id="add-btn">
+  <svg class="add-icon" viewBox="0 0 24 24" width="16" height="16" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 6V18M18 12H6"/>
+  </svg>
+  Add New Event
+</button>
+    <table>
+      <thead>
+        <tr>
+          <th>Event</th>
+          <th>Start</th>
+          <th>End</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="event-table-body"></tbody>
+    </table>
+  </div>
+  <script type="module" src="js/controller.js"></script>
+</body>
+</html>
