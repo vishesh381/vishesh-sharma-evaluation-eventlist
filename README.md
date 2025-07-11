@@ -12,12 +12,11 @@ This application was built with modularity and maintainability in mind:
   - **Controller**: Orchestrates the app logic and connects Model and View.
 
 - **User-friendly Interface**:
-  - Add new events with a clean form.
+  - Add new events.
   - Edit or delete existing events via intuitive icons.
   - Canceling an edit operation prevents accidental data loss.
 
 - **Progressive Enhancement**:
-  - Prompts are handled gracefully; canceled prompts do not overwrite data.
   - Modular design enables easy future upgrades like validations or modal-based editing.
 
 ## 📁 Project Structure
