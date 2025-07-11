@@ -21,12 +21,11 @@ This application was built with modularity and maintainability in mind:
   - Modular design enables easy future upgrades like validations or modal-based editing.
 
 ## 📁 Project Structure
-
-├── index.html # Main HTML layout
-├── styles.css # All styling and responsiveness
-├── js/
-│ ├── controller.js # Application entry point and controller logic
-│ ├── model.js # Handles communication with the backend (JSON server)
-│ └── view.js # DOM manipulation and event binding
-├── db.json # JSON server file for persistent event storage
-└── README.md # Project documentation
+index.html - Main HTML layout  
+styles.css - All styling and responsiveness  
+js/  
+├── controller.js - Application entry point and controller logic  
+├── model.js - Handles communication with the backend (JSON server)  
+└── view.js - DOM manipulation and event binding  
+db.json - JSON server file for persistent event storage  
+README.md - Project documentation  
