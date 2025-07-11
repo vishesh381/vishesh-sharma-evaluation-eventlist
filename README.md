@@ -22,7 +22,8 @@ This application was built with modularity and maintainability in mind:
 
 ## 📁 Project Structure
 index.html - Main HTML layout  
-styles.css - All styling and responsiveness  
+css/
+├── styles.css - All styling and responsiveness  
 js/  
 ├── controller.js - Application entry point and controller logic  
 ├── model.js - Handles communication with the backend (JSON server)  
