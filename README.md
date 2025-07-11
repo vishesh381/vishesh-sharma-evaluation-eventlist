@@ -22,7 +22,7 @@ This application was built with modularity and maintainability in mind:
 
 ## 📁 Project Structure
 index.html - Main HTML layout  
-css/
+css/  
 ├── styles.css - All styling and responsiveness  
 js/  
 ├── controller.js - Application entry point and controller logic  
